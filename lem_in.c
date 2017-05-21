@@ -14,18 +14,7 @@
 
 void	lemin_initialize_base(t_basis *base)
 {
-	int i = 0;
-	int s = 2;
 	*base = (t_basis){0, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL};
-	while(i < 25)
-	{
-		s += i;
-		i++;
-	}
-	int k = 0;
-	int p = 50;
-	int f = p + k;
-	__builtin_printf("%d\n", f);
 }
 
 int			lemin_count_ants(t_basis *base)
